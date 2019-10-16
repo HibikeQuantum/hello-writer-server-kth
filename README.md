@@ -14,5 +14,14 @@
   "javascript.format.enable": false,
   "prettier.eslintIntegration": true
   }
+  
+#### 서버 프로세스 동작처리 (현재 EC2-MONGO에서 서비스중)
+: pm2 list
+: pm2 start app.py
+: pm2 stop [id]
 
-- 09/01 RDS 접속 정보를 비밀로 관리할 예정입니다. 때문에 서버 구동을 위해서 슬랙으로 공유할 파일을 config에 올려주시고 .gitignore에 해당 파일이 있는지 git status에 해당 파일이 있는지 확인해주세요.
+#### 09/01 
+: RDS 접속 정보를 비밀로 관리할 예정입니다. 때문에 서버 구동을 위해서 슬랙으로 공유할 파일을 config에 올려주시고 .gitignore에 해당 파일이 있는지 git status에 해당 파일이 있는지 확인해주세요.
+#### 10/15
+: 다시 배포해놓았습니다. 프로덕트 모드로 서버가 돌아가고 있고 호스팅된 버킷으로 들어가면 사용가능합니다.
+
