@@ -8,7 +8,7 @@ const { userLogging } = require("./middleware");
 const app = express();
 module.exports.app = app;
 
-process.env.NODE_ENV = "development";
+// process.env.NODE_ENV = "development";
 // 배포하기 전에 다음 주석을 풀어주세요
 // process.env.NODE_ENV = 'production';
 
